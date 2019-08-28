@@ -1,3 +1,30 @@
 body {
-    background-color: rgb(255, 203, 89);
+    background-color: rgb(232, 225, 208);
+}
+
+#pie-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    flex-flow: row wrap;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.pie-card {
+        width: 250px;
+        border: 5px solid rgb(62, 108, 123);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; 
+        margin: 1em;
+        padding: 0.5em;
+}
+
+.pie-type {
+    text-align: center;
 }
